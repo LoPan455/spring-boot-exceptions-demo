@@ -1,4 +1,4 @@
-package io.tjohander.exceptiondemo.domain
+package io.tjohander.exceptiondemo.domain.error
 
 data class ErrorDetailResponse(val message: String, val code: String, val errors: ArrayList<ErrorDetail>) {
 }
